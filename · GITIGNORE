@@ -1,0 +1,24 @@
+# Environment variables — never commit
+.env
+.env.local
+.env.production
+
+# Admin sensitive folders
+admin/logs/
+admin/exports/
+
+# Vercel build output
+.vercel/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Node (if you ever add a build step)
+node_modules/
+npm-debug.log*
